@@ -39,3 +39,9 @@ const markup = images.map((image) => {
 });
 
 gallery.append(...markup);
+
+// const markup = images
+//   .map((img) => `<li class="item"><img src="${img.url}" alt="${img.alt}"></li>`)
+//   .join("");
+
+// gallery.insertAdjacentHTML("beforeend", markup);
