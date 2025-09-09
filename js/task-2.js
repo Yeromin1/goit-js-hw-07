@@ -28,20 +28,3 @@ const images = [
 ];
 
 const gallery = document.querySelector(".gallery");
-
-const markup = images.map((image) => {
-  const li = document.createElement("li");
-  const img = document.createElement("img");
-  img.src = image.url;
-  img.alt = image.alt;
-  li.append(img);
-  return li;
-});
-
-gallery.append(...markup);
-
-// const markup = images
-//   .map((img) => `<li class="item"><img src="${img.url}" alt="${img.alt}"></li>`)
-//   .join("");
-
-// gallery.insertAdjacentHTML("beforeend", markup);
