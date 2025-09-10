@@ -12,7 +12,3 @@ input.addEventListener("input", function () {
 
   nameOutput.textContent = name;
 });
-
-// input.addEventListener("input", (e) => {
-//   output.textContent = e.currentTarget.value.trim() || "Anonymous";
-// });

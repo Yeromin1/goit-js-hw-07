@@ -11,16 +11,3 @@ items.forEach((item) => {
   console.log(`Category: ${title}`);
   console.log(`Elements: ${elementsCount}`);
 });
-
-// const gallery = document.querySelector(".gallery");
-
-// const markup = images.map((image) => {
-//   const li = document.createElement("li");
-//   const img = document.createElement("img");
-//   img.src = image.url;
-//   img.alt = image.alt;
-//   li.append(img);
-//   return li;
-// });
-
-// gallery.append(...markup);
